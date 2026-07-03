@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Marcellus", serif;;
+    background-color: white;
+    color: #1a1033;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 48px;
+    top: 0;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.nav-links{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: double;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E9A11B;
+}
+.nav-links a:hover{
+    color: #6c2bff;
+}
+.hero-topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+.hero-title{
+    font-family: cursive;
+    font-size: 60px;
+}
+.hero-title .historias{
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+    color: #6c2bff;
+    display: block;
+}
+.hero-text{
+    flex: 1;
+    min-width: 400px;
+    margin-left: 60px;
+}
+.hero img{
+    width: 500px;
+    border-radius: 25px;
+}
+button{
+    display: block;
+    background-color: #C9A15A;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+}
+.hero-servicos{
+    align-items: center;
+    justify-content: center;
+}
+.hero-servicos :hover{
+    align-items: center;
+    justify-content: center;
+}
